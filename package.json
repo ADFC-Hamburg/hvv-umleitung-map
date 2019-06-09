@@ -1,0 +1,22 @@
+{
+  "name": "adfc-umleitung",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build --public-url https://tools.adfc-hamburg.de/umleitung/u1-ohlsdorf/ --no-content-hash  index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cssnano": "^4.1.10",
+    "leaflet": "^1.5.1",
+    "leaflet-fullscreen": "^1.0.2",
+    "leaflet-gpx": "^1.0.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3",
+    "parcel-plugin-static-files-copy": "^2.1.2"
+  }
+}
